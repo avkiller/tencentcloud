@@ -17,7 +17,7 @@ tasks:
     deps:
       - task: xcaddy
     cmds:
-      - xcaddy build --with github.com/caddy-dns/tencentcloud=../tencentcloud
+      - xcaddy build --with github.com/avkiller/tencentcloud=../tencentcloud
 
   test:
     desc: test
