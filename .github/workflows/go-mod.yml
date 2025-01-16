@@ -28,15 +28,13 @@ jobs:
       run: |
           git config --global user.email "avkiller2012@gmail.com"
           git config --global user.name "avkiller"
-          git add .
-
-          latest=$(git rev-parse HEAD^ 2>/dev/null || echo HEAD)
-
-          if git diff --quiet "$latest" HEAD; then
-             echo "没有检测到代码变化。"
+          
+          if git status --porcelain | grep -q .; then
+            echo "没有检测到代码变化。"
           else
             echo "代码发生变化"
             # 执行推送操作
+            git add .
             git commit -m "Update go modules"
             git push
           fi
