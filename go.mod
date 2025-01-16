@@ -1,4 +1,4 @@
-module github.com/caddy-dns/tencentcloud
+module github.com/avkiller/tencentcloud
 
 go 1.23
 
