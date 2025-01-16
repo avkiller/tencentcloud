@@ -5,9 +5,8 @@ name: Go module update
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    paths:
+      - 'go.mod'
   workflow_dispatch:
 
 jobs:
