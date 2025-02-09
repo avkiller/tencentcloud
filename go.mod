@@ -4,7 +4,7 @@ go 1.23
 
 require (
 	github.com/caddyserver/caddy/v2 v2.9.1
-	github.com/libdns/tencentcloud v1.1.0
+	github.com/libdns/tencentcloud v1.2.0
 )
 
 require (
