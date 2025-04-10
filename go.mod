@@ -1,6 +1,7 @@
 module github.com/avkiller/tencentcloud
 
-go 1.22
+go 1.22.3
+
 toolchain go1.24.1
 
 require (
