@@ -1,10 +1,11 @@
 module github.com/avkiller/tencentcloud
 
-go 1.23
+go 1.22
+toolchain go1.24.1
 
 require (
 	github.com/caddyserver/caddy/v2 v2.9.1
-	github.com/libdns/tencentcloud v1.2.0
+	github.com/libdns/tencentcloud v1.2.1
 )
 
 require (
